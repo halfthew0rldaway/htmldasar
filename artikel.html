@@ -1,79 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>Artikel - Persaingan HP Flagship</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFlagship - HP Flagship Terbaru</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #e3f2fd;
+            background-color: #f8f9fa;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x600/?smartphone') no-repeat center center/cover;
+            color: white;
             text-align: center;
-            padding: 20px;
+            padding: 120px 20px;
         }
-        h1 {
-            color: #333;
+        .hero h1 {
+            font-size: 48px;
+            font-weight: bold;
+            color:black;
         }
-        .nav {
-            margin-bottom: 20px;
+        .hero p {
+            color:black;
+            font-size: 20px;
         }
-        .nav a {
+        .cta-button {
+            background-color: #007BFF;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 5px;
             text-decoration: none;
-            color: #007BFF;
-            margin: 0 10px;
-            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s;
         }
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        .cta-button:hover {
+            background-color: #0056b3;
         }
-        h2 {
-            color: #555;
-        }
-        p {
-            text-align: justify;
-        }
-        .phone-image {
-            display: block;
-            margin: 10px auto;
-            max-width: 200px; /* Ukuran gambar sedang */
+        .card:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
         }
     </style>
 </head>
 <body>
-    <div class="nav">
-        <a href="index.html">Home</a>
-        <a href="artikel.html">Artikel</a>
-        <a href="kontak.html">kontak</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">TechFlagship</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="artikel.html">Artikel</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="hero">
+        <div class="container">
+            <h1>Persaingan HP Flagship di Indonesia</h1>
+            <p>Dapatkan informasi terbaru tentang HP flagship terbaik di pasaran.</p>
+        </div>
+    </section>
+    
+    <div class="container mt-5">
+        <h2 class="text-center">Tren Smartphone Flagship 2025</h2>
+        <p>Persaingan smartphone flagship di Indonesia semakin ketat dengan hadirnya berbagai merek yang menawarkan inovasi terbaru...</p>
+        
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h3>1. Samsung S25 Ultra</h3>
+                <img src="https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-1.jpg" class="img-fluid" alt="Samsung S25 Ultra">
+                <p>Samsung S25 Ultra menjadi salah satu smartphone flagship terbaik tahun ini...</p>
+            </div>
+            <div class="col-md-6">
+                <h3>2. Vivo X200 Pro</h3>
+                <img src="https://fdn2.gsmarena.com/vv/pics/vivo/vivo-x200-pro-1.jpg" class="img-fluid" alt="Vivo X200 Pro">
+                <p>Vivo X200 Pro hadir sebagai pesaing kuat dengan keunggulan utama pada sektor kamera...</p>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h3>3. Huawei Mate 20 RS Porsche Design</h3>
+                <img src="https://fdn2.gsmarena.com/vv/pics/huawei/huawei-mate-20-rs-porsche-design-red2.jpg" class="img-fluid" alt="Huawei Mate 20 RS">
+                <p>Huawei kembali menghadirkan flagship dengan desain premium...</p>
+            </div>
+            <div class="col-md-6">
+                <h3>4. Xiaomi 15 Ultra</h3>
+                <img src="https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-15-ultra-5.jpg" class="img-fluid" alt="Xiaomi 15 Ultra">
+                <p>Bagi penggemar fotografi, Xiaomi 15 Ultra menjadi pilihan menarik...</p>
+            </div>
+        </div>
     </div>
     
-    <h1>Persaingan HP Flagship di Indonesia</h1>
+    <footer class="bg-dark text-white text-center py-4 mt-5">
+        <div class="container">
+            <p>&copy; 2025 TechFlagship | Semua Hak Dilindungi</p>
+            <div>
+                <a href="#" class="text-white me-3">Facebook</a>
+                <a href="#" class="text-white me-3">Twitter</a>
+                <a href="#" class="text-white">Instagram</a>
+            </div>
+        </div>
+    </footer>
     
-    <div class="container">
-        <h2>Tren Smartphone Flagship 2025</h2>
-        <p>Persaingan smartphone flagship di Indonesia semakin ketat dengan hadirnya berbagai merek yang menawarkan inovasi terbaru. Konsumen kini semakin selektif dalam memilih perangkat yang tidak hanya memiliki spesifikasi tinggi, tetapi juga fitur unggulan yang mendukung produktivitas dan hiburan. Berikut adalah beberapa perangkat flagship yang menarik perhatian di tahun 2025:</p>
-        
-        <h3>1. Samsung S25 Ultra</h3>
-        <img src="https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-1.jpg" alt="Samsung S25 Ultra" class="phone-image">
-        <p>Samsung S25 Ultra menjadi salah satu smartphone flagship terbaik tahun ini. Dengan skor AnTuTu mencapai 2.900.000 poin, ponsel ini ditenagai oleh chipset Exynos 2500 yang sangat bertenaga. Layarnya menggunakan teknologi Dynamic AMOLED 2X berukuran 6.9 inci dengan refresh rate 144Hz, memberikan pengalaman visual yang luar biasa. Perangkat ini juga dilengkapi RAM hingga 16GB dan penyimpanan internal hingga 2TB, menjadikannya pilihan utama bagi pengguna yang menginginkan performa tanpa kompromi. Harga perangkat ini diperkirakan mulai dari Rp 15 jutaan.</p>
-        
-        <h3>2. Vivo X200 Pro (Tipe Tertinggi)</h3>
-        <img src="https://fdn2.gsmarena.com/vv/pics/vivo/vivo-x200-pro-1.jpg" alt="Vivo X200 Pro" alt="Vivo X200 Pro" class="phone-image">
-        <p>Vivo X200 Pro hadir sebagai pesaing kuat dengan keunggulan utama pada sektor kamera. Ditenagai oleh prosesor Snapdragon 8 Gen 3, ponsel ini memiliki layar AMOLED 6.8 inci dengan refresh rate 120Hz. Kamera utamanya menggunakan teknologi terbaru yang memungkinkan pengambilan gambar dalam kondisi minim cahaya dengan hasil yang tajam. Dengan dukungan pengisian daya cepat 180W, pengguna dapat mengisi daya penuh dalam waktu singkat. Harga perangkat ini berkisar antara Rp 13-14 jutaan.</p>
-        
-        <h3>3. Huawei Mate 20 RS Porsche Design</h3>
-        <img src="https://fdn2.gsmarena.com/vv/pics/huawei/huawei-mate-20-rs-porsche-design-red2.jpg" alt="Huawei Mate 20 RS Porsche Design" class="phone-image">
-        <p>Huawei kembali menghadirkan flagship dengan desain premium melalui Mate 20 RS Porsche Design. Smartphone ini menggunakan prosesor Kirin 9400, layar LTPO OLED 6.9 inci dengan refresh rate 120Hz, serta baterai berkapasitas 5500mAh yang mendukung pengisian daya super cepat 150W. Dengan RAM 16GB dan penyimpanan internal 1TB, perangkat ini menawarkan kombinasi sempurna antara desain mewah dan performa tinggi. Harga flagship ini dimulai dari Rp 20 jutaan.</p>
-        
-        <h3>4. Xiaomi 15 Ultra dengan Photographic Kit</h3>
-        <img src="https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-15-ultra-5.jpg" alt="Xiaomi 15 Ultra" class="phone-image">
-        <p>Bagi penggemar fotografi, Xiaomi 15 Ultra menjadi pilihan menarik. Smartphone ini menghadirkan sensor kamera utama 200MP yang dikembangkan bersama Leica. Layarnya menggunakan teknologi LTPO AMOLED 6.8 inci dengan refresh rate 120Hz. Dengan baterai 5000mAh dan pengisian cepat 120W, perangkat ini tidak hanya unggul dalam fotografi tetapi juga dalam daya tahan. Harga perangkat ini dengan Photographic Kit berkisar antara Rp 15-17 jutaan.</p>
-        
-        <h3>5. Nubia Red Magic 10 Pro</h3>
-        <img src="https://fdn.gsmarena.com/imgroot/reviews/24/nubia-red-magic-10-pro/lifestyle/-1200w5/gsmarena_012.jpg" alt="Nubia Red Magic 10 Pro" class="phone-image">
-        <p>Untuk para gamers, Nubia Red Magic 10 Pro menawarkan spesifikasi tinggi dengan harga kompetitif. Ditenagai oleh prosesor Snapdragon 8 Gen 3 dan sistem pendingin canggih, ponsel ini menghadirkan layar AMOLED 6.8 inci dengan refresh rate 165Hz, memastikan pengalaman gaming yang mulus. Kapasitas baterai 6000mAh dengan pengisian daya 165W menjadikannya perangkat yang ideal untuk gaming dalam waktu lama. Harga varian dasar perangkat ini mulai dari Rp 12 jutaan.</p>
-    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
