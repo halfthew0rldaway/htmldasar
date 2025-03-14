@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Contact</title>
+    <title>Kontak</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -9,11 +9,41 @@
             text-align: center;
             padding: 20px;
         }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .logo {
+            display: block;
+            margin: 20px auto;
+            max-width: 300px; /* Ukuran gambar logo */
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            margin: 10px 0;
+        }
+        .back-link {
+            display: block;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
-    <h1>Contact</h1>
-    <p>Email: pasukansistemkebutsemalam@acikiwir.com</p>
-    <a href="index.html">Kembali</a>
+    <div class="container">
+        <h1>Kontak</h1>
+        <img src="universitas_dian_nusantara.png" alt="Logo Universitas Dian Nusantara" class="logo">
+        <div class="contact-info">
+            <p>Email: pasukansistemkebutsemalam@acikiwir.com</p>
+            <p>Telepon: +62 812 123 4567890</p>
+            <p>Alamat: Jl. Rawa Dolar </p>
+        </div>
+        <a href="index.html" class="back-link">Kembali</a>
+    </div>
 </body>
 </html>
