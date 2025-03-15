@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechFlagship - HP Flagship Terbaru</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f8f9fa;
         }
+
         .hero {
             background: url('https://source.unsplash.com/1600x600/?smartphone') no-repeat center center/cover;
             color: white;
             text-align: center;
             padding: 120px 20px;
         }
+
         .hero h1 {
             font-size: 48px;
             font-weight: bold;
-            color:black;
+            color: black;
         }
+
         .hero p {
-            color:black;
+            color: black;
             font-size: 20px;
         }
+
         .cta-button {
             background-color: #007BFF;
             color: white;
@@ -34,15 +40,18 @@
             font-weight: bold;
             transition: 0.3s;
         }
+
         .cta-button:hover {
             background-color: #0056b3;
         }
+
         .card:hover {
             transform: scale(1.05);
             transition: 0.3s;
         }
     </style>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
@@ -59,45 +68,105 @@
             </div>
         </div>
     </nav>
-    
+
     <section class="hero">
         <div class="container">
             <h1>Persaingan HP Flagship di Indonesia</h1>
             <p>Dapatkan informasi terbaru tentang HP flagship terbaik di pasaran.</p>
         </div>
     </section>
-    
+
     <div class="container mt-5">
         <h2 class="text-center">Tren Smartphone Flagship 2025</h2>
-        <p>Persaingan smartphone flagship di Indonesia semakin ketat dengan hadirnya berbagai merek yang menawarkan inovasi terbaru...</p>
-        
+        <p>Persaingan smartphone flagship di Indonesia semakin ketat dengan hadirnya berbagai merek yang menawarkan
+            inovasi terbaru...</p>
+
         <div class="row mt-4">
             <div class="col-md-6">
                 <h3>1. Samsung S25 Ultra</h3>
-                <img src="https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-1.jpg" class="img-fluid" alt="Samsung S25 Ultra">
+                <img src="https://fdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-s25-ultra-sm-s938-1.jpg"
+                    class="img-fluid" alt="Samsung S25 Ultra">
                 <p>Samsung S25 Ultra menjadi salah satu smartphone flagship terbaik tahun ini...</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#samsungModal">
+                    Lihat Detail
+                </button>
+
             </div>
+            <!-- Modal Samsung -->
+            <div class="modal fade" id="samsungModal" tabindex="-1" aria-labelledby="samsungModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="samsungModalLabel">Samsung S25 Ultra</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+
+                            <div class="ratio ratio-16x9">
+                                <iframe id="samsungVideo" src="https://www.youtube.com/embed/ZyJ4T8mD6V8"
+                                    allowfullscreen></iframe>
+                            </div>
+                            <br>
+                            <p>Samsung S25 Ultra menjadi salah satu smartphone flagship terbaik tahun ini. Dengan skor
+                                AnTuTu mencapai 2.900.000 poin, ponsel ini ditenagai oleh chipset Exynos 2500 yang
+                                sangat bertenaga. Layarnya menggunakan teknologi Dynamic AMOLED 2X berukuran 6.9 inci
+                                dengan refresh rate 144Hz, memberikan pengalaman visual yang luar biasa. Perangkat ini
+                                juga dilengkapi RAM hingga 16GB dan penyimpanan internal hingga 2TB, menjadikannya
+                                pilihan utama bagi pengguna yang menginginkan performa tanpa kompromi. Harga perangkat
+                                ini diperkirakan mulai dari Rp 15 jutaan.</p>
+                            <p><b>Layar:</b> 6.8 inci Dynamic AMOLED 2X, 144Hz, resolusi QHD+</p>
+                            <p><b>Chipset:</b> Snapdragon 8 Gen 4 / Exynos 2500</p>
+                            <p><b>Kamera:</b> 200 MP (utama), 50 MP (periskop), 12 MP (ultrawide), 40 MP (depan)</p>
+                            <p><b>Baterai:</b> 5.500mAh, Fast Charging 65W</p>
+                            <p>Link pembelian Samsung S25 Ultra di Tokopedia:
+                                <a href="https://tokopedia.link/0t910FafbRb">https://tokopedia.link/0t910FafbRb</a>
+                                <a href="https://tokopedia.link/t6GTVCcfbRb">https://tokopedia.link/t6GTVCcfbRb</a>
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
             <div class="col-md-6">
                 <h3>2. Vivo X200 Pro</h3>
-                <img src="https://fdn2.gsmarena.com/vv/pics/vivo/vivo-x200-pro-1.jpg" class="img-fluid" alt="Vivo X200 Pro">
+                <img src="https://fdn2.gsmarena.com/vv/pics/vivo/vivo-x200-pro-1.jpg" class="img-fluid"
+                    alt="Vivo X200 Pro">
                 <p>Vivo X200 Pro hadir sebagai pesaing kuat dengan keunggulan utama pada sektor kamera...</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#samsungModal">
+                    Lihat Detail
+                </button>
+
             </div>
         </div>
-        
+
         <div class="row mt-4">
             <div class="col-md-6">
                 <h3>3. Huawei Mate 20 RS Porsche Design</h3>
-                <img src="https://fdn2.gsmarena.com/vv/pics/huawei/huawei-mate-20-rs-porsche-design-red2.jpg" class="img-fluid" alt="Huawei Mate 20 RS">
+                <img src="https://fdn2.gsmarena.com/vv/pics/huawei/huawei-mate-20-rs-porsche-design-red2.jpg"
+                    class="img-fluid" alt="Huawei Mate 20 RS">
                 <p>Huawei kembali menghadirkan flagship dengan desain premium...</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#samsungModal">
+                    Lihat Detail
+                </button>
+
             </div>
             <div class="col-md-6">
                 <h3>4. Xiaomi 15 Ultra</h3>
-                <img src="https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-15-ultra-5.jpg" class="img-fluid" alt="Xiaomi 15 Ultra">
+                <img src="https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-15-ultra-5.jpg" class="img-fluid"
+                    alt="Xiaomi 15 Ultra">
                 <p>Bagi penggemar fotografi, Xiaomi 15 Ultra menjadi pilihan menarik...</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#samsungModal">
+                    Lihat Detail
+                </button>
+
             </div>
         </div>
     </div>
-    
+
     <footer class="bg-dark text-white text-center py-4 mt-5">
         <div class="container">
             <p>&copy; 2025 TechFlagship | Semua Hak Dilindungi</p>
@@ -108,7 +177,8 @@
             </div>
         </div>
     </footer>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
